@@ -20,17 +20,9 @@ sites:
     url: ns2.beeshosting.eu.org
     check: "tcp-ping"
     port: 53
-  - name: Nameserver 3
-    url: ns3.beeshosting.eu.org
-    check: "tcp-ping"
-    port: 53
-  - name: Nameserver 4
-    url: ns4.beeshosting.eu.org
-    check: "tcp-ping"
-    port: 53
     #Start Traige Services
   - name: Gestionnaire de fichiers en ligne
-    url: https://http://filemanager.ai/new/
+    url: https://filemanager.ai/new/
   - name: phpMyAdmin
     url: 185.27.134.10
     check: "tcp-ping"
@@ -52,8 +44,10 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.beeshosting.eu.org
   # baseUrl: /your-repo-name
-  logoUrl: https://beeshosting.eu.org/assets/img/logo/favicon.png
+  logoUrl: https://beeshosting.eu.org/assets/img/logo/logo-color.png
+  favicon: https://beeshosting.eu.org/assets/img/logo/favicon.png
   name: Statut - Bees Hosting
+  theme: dark
   introTitle: "Status des services de **Bees Hosting**"
   introMessage: Cette page d’état fournit des informations mises à jour sur le fonctionnement normal des systèmes de **Bees Hosting** et les incidents qui peuvent survenir.
   navbar:
