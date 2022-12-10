@@ -57,7 +57,7 @@ status-website:
       href: https://beeshosting.eu.org
     - title: Espace client
       href: https://my.beeshosting.eu.org
-  customBodyHtml: "<script src='https://spookykipper.github.io/AssetsWebsite/Spookhost/Upptime/groups.js'></script>" 
+  customBodyHtml: "<script src='https://beeshosting.eu.org/assets/cpanel/status.js'></script>" 
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
