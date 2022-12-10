@@ -6,6 +6,7 @@ sites:
 #Start Core Services
   - name: Espace client
     url: https://my.beeshosting.eu.org
+    __dangerous__disable_verify_peer: true
   - name: CPanel
     url: https://cpanel.beeshosting.eu.org
   - name: Serveur FTP
@@ -33,6 +34,7 @@ sites:
 #Start Others
   - name: Site vitrine
     url: https://beeshosting.eu.org/
+    __dangerous__disable_verify_peer: true
     #Start Third Party
   - name: API MyOwnFreeHost
     url: https://panel.myownfreehost.net/xml-api/
@@ -44,7 +46,7 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: status.beeshosting.eu.org
   baseUrl: /statuspage
-  logoUrl: https://beeshosting.eu.org/assets/img/logo/logo-color.png
+  logoUrl: https://beeshosting.eu.org/assets/img/logo/favicon.png
   favicon: https://beeshosting.eu.org/assets/img/logo/favicon.png
   name: Statut - Bees Hosting
   theme: dark
@@ -55,6 +57,7 @@ status-website:
       href: https://beeshosting.eu.org
     - title: Espace client
       href: https://my.beeshosting.eu.org
+  customBodyHtml: "<script src='https://spookykipper.github.io/AssetsWebsite/Spookhost/Upptime/groups.js'></script>" 
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
