@@ -1,31 +1,69 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Bees-Hosting # Your GitHub organization or username, where this repository lives
+repo: statuspage # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+#Start Core Services
+  - name: Espace client
+    url: https://my.beeshosting.eu.org
+  - name: CPanel
+    url: https://cpanel.beeshosting.eu.org
+  - name: Serveur FTP
+    url: ftpupload.net
+    check: "tcp-ping"
+    port: 21
+  - name: Nameserver 1
+    url: ns1.beeshosting.eu.org
+    check: "tcp-ping"
+    port: 53
+  - name: Nameserver 2
+    url: ns2.beeshosting.eu.org
+    check: "tcp-ping"
+    port: 53
+  - name: Nameserver 3
+    url: ns3.beeshosting.eu.org
+    check: "tcp-ping"
+    port: 53
+  - name: Nameserver 4
+    url: ns4.beeshosting.eu.org
+    check: "tcp-ping"
+    port: 53
+    #Start Traige Services
+  - name: Gestionnaire de fichiers en ligne
+    url: https://http://filemanager.ai/new/
+  - name: phpMyAdmin
+    url: 185.27.134.10
+    check: "tcp-ping"
+  - name: Softaculous
+    url: sv1.scriptinstall.rocks
+    check: "tcp-ping"
+    port: 2083
+#Start Others
+  - name: Site vitrine
+    url: https://beeshosting.eu.org/
+    #Start Third Party
+  - name: API MyOwnFreeHost
+    url: https://panel.myownfreehost.net/xml-api/
+  - name: API GoGetSSL
+    url: https://my.gogetssl.com/api/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.beeshosting.eu.org
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://beeshosting.eu.org/assets/img/logo/favicon.png
+  name: Statut - Bees Hosting
+  introTitle: "Status des services de **Bees Hosting**"
+  introMessage: Cette page d’état fournit des informations mises à jour sur le fonctionnement normal des systèmes de **Bees Hosting** et les incidents qui peuvent survenir.
   navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Site
+      href: https://beeshosting.eu.org
+    - title: Espace client
+      href: https://my.beeshosting.eu.org
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+i18n:
+  footer: © Copyright 2022 Bees Hosting
+  allSystemsOperational: Tout est opérationnel
