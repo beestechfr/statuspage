@@ -4,19 +4,19 @@
     "url": "https://my.beeshosting.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/my.beeshosting.eu.org.ico",
     "slug": "espace-client",
-    "status": "up",
-    "uptime": "99.04%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "96.77%",
-    "uptimeMonth": "99.06%",
-    "uptimeYear": "99.04%",
+    "status": "down",
+    "uptime": "99.05%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "96.84%",
+    "uptimeMonth": "99.08%",
+    "uptimeYear": "99.05%",
     "time": 789,
     "timeDay": 666,
     "timeWeek": 677,
     "timeMonth": 812,
     "timeYear": 789,
     "dailyMinutesDown": {
-      "2023-01-13": 11,
+      "2023-01-13": 5,
       "2023-01-08": 314,
       "2023-01-06": 68,
       "2022-12-15": 17,
@@ -28,18 +28,20 @@
     "url": "https://cpanel.beeshosting.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/cpanel.beeshosting.eu.org.ico",
     "slug": "c-panel",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.71%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 806,
     "timeDay": 819,
     "timeWeek": 715,
     "timeMonth": 823,
     "timeYear": 806,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-13": 4
+    }
   },
   {
     "name": "Serveur FTP",
@@ -67,10 +69,10 @@
     "url": "ns1.beeshosting.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "nameserver-1",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 196,
@@ -78,17 +80,19 @@
     "timeWeek": 148,
     "timeMonth": 195,
     "timeYear": 196,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-13": 2
+    }
   },
   {
     "name": "Nameserver 2",
     "url": "ns2.beeshosting.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "nameserver-2",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 159,
@@ -96,7 +100,9 @@
     "timeWeek": 141,
     "timeMonth": 164,
     "timeYear": 159,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-13": 1
+    }
   },
   {
     "name": "Gestionnaire de fichiers en ligne",
@@ -161,9 +167,9 @@
     "url": "https://beeshosting.eu.org/",
     "icon": "https://icons.duckduckgo.com/ip3/beeshosting.eu.org.ico",
     "slug": "site-vitrine",
-    "status": "up",
+    "status": "down",
     "uptime": "99.19%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "96.98%",
     "uptimeMonth": "99.23%",
     "uptimeYear": "99.19%",
@@ -173,6 +179,7 @@
     "timeMonth": 502,
     "timeYear": 519,
     "dailyMinutesDown": {
+      "2023-01-13": 0,
       "2023-01-08": 304,
       "2023-01-06": 35,
       "2022-12-10": 61
