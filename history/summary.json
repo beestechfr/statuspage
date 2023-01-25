@@ -204,11 +204,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/panel.myownfreehost.net.ico",
     "slug": "api-my-own-free-host",
     "status": "up",
-    "uptime": "99.96%",
+    "uptime": "99.97%",
     "uptimeDay": "98.39%",
     "uptimeWeek": "99.77%",
     "uptimeMonth": "99.95%",
-    "uptimeYear": "99.96%",
+    "uptimeYear": "99.97%",
     "time": 1238,
     "timeDay": 8713,
     "timeWeek": 2768,
@@ -223,9 +223,9 @@
     "url": "https://my.gogetssl.com/api/",
     "icon": "https://icons.duckduckgo.com/ip3/my.gogetssl.com.ico",
     "slug": "api-go-get-ssl",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -234,6 +234,8 @@
     "timeWeek": 534,
     "timeMonth": 552,
     "timeYear": 558,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-25": 0
+    }
   }
 ]
