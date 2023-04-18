@@ -49,7 +49,7 @@ status-website:
   logoUrl: https://beeshosting.eu.org/assets/img/logo/favicon.png
   favicon: https://beeshosting.eu.org/assets/img/logo/favicon.png
   name: Statut - Bees Hosting
-  theme: tabler
+  theme: dark
   introTitle: "Statut des services de **Bees Hosting**"
   introMessage: Cette page d’état fournit des informations mises à jour sur le fonctionnement normal des systèmes de **Bees Hosting** et les incidents qui peuvent survenir.
   navbar:
