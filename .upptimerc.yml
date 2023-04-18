@@ -50,13 +50,14 @@ status-website:
   favicon: https://beeshosting.eu.org/assets/img/logo/favicon.png
   name: Statut - Bees Hosting
   theme: tabler
-  introTitle: "Status des services de **Bees Hosting**"
+  introTitle: "Statut des services de **Bees Hosting**"
   introMessage: Cette page d’état fournit des informations mises à jour sur le fonctionnement normal des systèmes de **Bees Hosting** et les incidents qui peuvent survenir.
   navbar:
     - title: Site
       href: https://beeshosting.eu.org
     - title: Espace client
       href: https://my.beeshosting.eu.org
+  customHeadHtml: '<script async src="https://arc.io/widget.min.js#odJsvy6T"></script>'
   customBodyHtml: "<script src='https://beeshosting.eu.org/assets/cpanel/status.js'></script>" 
 
 # Upptime also supports notifications, assigning issues, and more
