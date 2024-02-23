@@ -5,20 +5,20 @@ repo: statuspage # The name of this repository
 sites:
 #Start Core Services
   - name: Espace client
-    url: https://my.beeshosting.eu.org
+    url: https://my.beestech.fr
     __dangerous__disable_verify_peer: true
   - name: CPanel
-    url: https://cpanel.beeshosting.eu.org
+    url: http://cpanel.beestech.site
   - name: Serveur FTP
     url: ftpupload.net
     check: "tcp-ping"
     port: 21
   - name: Nameserver 1
-    url: ns1.bs.cluster.ws
+    url: ns1.beestech.site
     check: "tcp-ping"
     port: 53
   - name: Nameserver 2
-    url: ns2.bs.cluster.ws
+    url: ns2.beestech.site
     check: "tcp-ping"
     port: 53
     #Start Traige Services
@@ -33,7 +33,7 @@ sites:
     port: 2083
 #Start Others
   - name: Site vitrine
-    url: https://beeshosting.eu.org/
+    url: https://beestech.fr
     __dangerous__disable_verify_peer: true
     #Start Third Party
   - name: API MyOwnFreeHost
@@ -44,24 +44,24 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.beeshosting.eu.org
+  cname: status.beestech.fr
   # baseUrl: /statuspage
-  logoUrl: https://beeshosting.eu.org/assets/img/logo/favicon.png
-  favicon: https://beeshosting.eu.org/assets/img/logo/favicon.png
-  name: Statut - Bees Hosting
+  logoUrl: https://beestech.fr/assets/img/logo.png
+  favicon: https://beestech.fr/assets/img/favicon.png
+  name: Statut - Bees Tecg
   theme: dark
-  introTitle: "Statut des services de **Bees Hosting**"
+  introTitle: "Statut des services de **Bees Tech**"
   introMessage: Cette page d’état fournit des informations mises à jour sur le fonctionnement normal des systèmes de **Bees Hosting** et les incidents qui peuvent survenir.
   navbar:
     - title: Site
-      href: https://beeshosting.eu.org
+      href: https://beestech.fr
     - title: Espace client
-      href: https://my.beeshosting.eu.org
+      href: https://my.beestech.fr
   customHeadHtml: '<script async src="https://arc.io/widget.min.js#odJsvy6T"></script>'
   customBodyHtml: "<script src='https://beeshosting.eu.org/assets/cpanel/status.js'></script>" 
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 i18n:
-  footer: © Copyright 2022 Bees Hosting
+  footer: © Copyright 2022 Bees Tech
   allSystemsOperational: Tout est opérationnel
